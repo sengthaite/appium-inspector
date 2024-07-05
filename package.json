@@ -65,15 +65,6 @@
   "bin": {
     "electron": "./node_modules/.bin/electron"
   },
-  "//dependencies": {
-    "antd": "V5: significant rewrite required",
-    "bluebird": "Deprecated: recommended to replace with native promises",
-    "cheerio": "1.0.0-rc.11: errors with export namespace",
-    "electron-log": "V5: rewrite required to only call in main process",
-    "electron-settings": "V5: need to rewrite to IPC while keeping browser version working",
-    "htmlparser2": "8.0.0: errors with export namespace",
-    "uuid": "Obsolete: can be replaced with crypto.randomUUID in Electron 14+"
-  },
   "dependencies": {
     "@reduxjs/toolkit": "2.2.6",
     "@xmldom/xmldom": "0.8.10",
@@ -102,20 +93,6 @@
     "uuid": "9.0.1",
     "web2driver": "3.0.4",
     "xpath": "0.0.34"
-  },
-  "//devDependencies": {
-    "chai": "V5: ESM-only with changed imports",
-    "cross-env": "Maintenance mode",
-    "devtron": "Abandoned",
-    "electron": "V14: breaks electron-settings",
-    "electron-debug": "V4: requires Electron 30",
-    "eslint": "V9: need to move to flat config",
-    "mocha-multi-reporters": "Appears to be abandoned",
-    "node-libs-browser": "Deprecated",
-    "parcel-bundler": "V2: significant rewrite required",
-    "postcss-modules": "V4: requires updating to Parcel v2",
-    "redux-logger": "Appears to be abandoned",
-    "spectron": "Deprecated. Newer V16 also requires Electron 14"
   },
   "devDependencies": {
     "@appium/docutils": "1.0.17",
@@ -155,7 +132,6 @@
     "mocha-multi-reporters": "1.5.1",
     "node-libs-browser": "2.2.1",
     "parcel-bundler": "1.12.5",
-    "parcel-plugin-asset-copier": "1.1.1",
     "postcss-modules": "3.2.2",
     "prettier": "3.3.2",
     "redux-logger": "3.0.6",
